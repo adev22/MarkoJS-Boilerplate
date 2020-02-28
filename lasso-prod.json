@@ -1,0 +1,10 @@
+{
+    "outputDir": "compiled",
+    "urlPrefix": "./compiled",
+    "minify": true,
+    "bundlingEnabled": true,
+    "fingerprintsEnabled": true,
+    "plugins": [
+        "lasso-marko"
+    ]    
+}
