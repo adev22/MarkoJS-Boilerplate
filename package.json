@@ -12,7 +12,7 @@
     "marko": "^4.19.0"
   },
   "scripts": {
-    "compile:prod": "lasso --config lasso-prod.json --html --inject-into index.html --main"
+    "compile:prod": "lasso --config lasso-prod.json --html --inject-into index.html --main",
     "compile:dev": "lasso --config lasso-dev.json --html --inject-into index.html --main"
   },
   "devDependencies": {
