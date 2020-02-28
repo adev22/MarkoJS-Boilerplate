@@ -1,0 +1,17 @@
+{
+  "name": "MarkoJS-Plate",
+  "version": "1.0.0",
+  "description": "So anyone can use this template/boilerplate for implementing their static server with MarkoJS",
+  "main": "server.js",
+  "repository": "https://github.com/Satssuki/MarkoJS-Boilerplate.git",
+  "author": "Entalizen <danielarya185@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lasso": "^3.3.1",
+    "lasso-marko": "^2.4.8",
+    "marko": "^4.19.0"
+  },
+  "scripts": {
+    "compile": "lasso "
+  }
+}
