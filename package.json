@@ -12,6 +12,9 @@
     "marko": "^4.19.0"
   },
   "scripts": {
-    "compile": "lasso "
+    "compile:prod": "lasso --config lasso-prod.json --html --inject-into index.html --main"
+  },
+  "devDependencies": {
+    "marko-cli": "^7.0.25"
   }
 }
